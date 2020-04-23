@@ -47,7 +47,7 @@ run: all
 	./$(BIN)/$(EXECUTABLE)
 
 clean:
-	-rm $(BIN)/* $(OBJ)/*.o
+	-rm $(BIN)/engine $(OBJ)/*.o
 
 # Compile only
 
