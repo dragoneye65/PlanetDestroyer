@@ -1,5 +1,5 @@
 # PlanetDestroyer
-Just playing around with c++ glm opengl assimp and sdl2 for the olc-beat-the-boredom jam.
+Just playing around with c++ glm opengl assimp and sdl2 for the olc-beat-the-boredom jam.<br>
 https://itch.io/jam/olc-beat-the-boredom
 
 There is a precompiled binary (debug version) for windows in bin directory, just unzip and run.
