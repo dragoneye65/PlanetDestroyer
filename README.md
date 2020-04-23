@@ -21,4 +21,4 @@ slow down: hold shift<br>
 speed up: hold ctrl<br>
 Exit:  escape<br>
 <br>
-There is no plot, no points, no text, no sound, not actually a game. just fly around and collide in the planets to get ridd of them.<br>
+There is no plot, no points, no text, no sound, not actually a game. just fly around and collide with the planets to get ridd of them. When all planets are gone they respawn<br>
