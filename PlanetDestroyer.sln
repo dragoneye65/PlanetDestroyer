@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlanedDestroyer", "PlanedDestroyer.vcxproj", "{527E63EB-68B9-4D02-8157-DF650148AA2F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlanetDestroyer", "PlanetDestroyer.vcxproj", "{527E63EB-68B9-4D02-8157-DF650148AA2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
