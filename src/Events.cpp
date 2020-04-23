@@ -14,7 +14,12 @@
  * limitations under the License.
  */
 
-#include <SDL2/SDL.h>
+#ifdef _WIN32
+    #include <SDL2/include/SDL.h>
+#else
+    #include <SDL2/SDL.h>
+#endif
+
 
 #include "Events.hpp"
 #include "Globals.hpp"

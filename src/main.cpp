@@ -20,6 +20,12 @@
 
 Globals globals;
 
+// Could get ridd off this because of by adding ignore defaultlibrary MSVCRT to the linker
+// This is for the SDL2 which redefines defines main to SDL_main
+#ifdef _WiN32
+    #undef main
+#endif
+
 int main() {
     std::cout << "Loading Game Engine\n";
     Game game;
@@ -38,4 +44,6 @@ int main() {
     game.Run();
     game.CleanUp();
     std::cout << "Game Engine exited" << std::endl;
+
+    return 0;
 }

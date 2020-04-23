@@ -20,10 +20,13 @@
 #include <string>
 #include <unordered_map>
 
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_ttf.h>
-#include <GL/glew.h>
+#ifdef _WIN32
+    #include <SDL2/include/SDL.h>
+#else
+    #include <SDL2/SDL.h>
+#endif
 
+#include <GL/glew.h>
 #include <glm/glm.hpp>
 #include <glm/matrix.hpp>
 #include <glm/gtc/matrix_transform.hpp>
@@ -133,9 +136,11 @@ private:
     bool renderCollisionBoxes{false};
 
     // Timeing stuff
-    std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::nanoseconds> tp1;
-    std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::nanoseconds> tp2;
-	int	nFrameCount = 0;
+//    std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::nanoseconds> tp1;
+//    std::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::nanoseconds> tp2;
+    std::chrono::time_point<std::chrono::system_clock, std::chrono::nanoseconds> tp1;
+    std::chrono::time_point<std::chrono::system_clock, std::chrono::nanoseconds> tp2;
+    int	nFrameCount = 0;
 	float fFrameTimer = 1.0f;
     float dt{0.f};
 
